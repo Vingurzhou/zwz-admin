@@ -1,4 +1,4 @@
 #!/bin/bash
-killall go-admin # kill go-admin service
-echo "stop go-admin success"
-ps -aux | grep go-admin
+killall zwz-admin # kill zwz-admin service
+echo "stop zwz-admin success"
+ps -ax | grep zwz-admin
