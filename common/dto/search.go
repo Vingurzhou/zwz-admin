@@ -1,8 +1,8 @@
 package dto
 
 import (
+	"github.com/Vingurzhou/zwz-admin/common/global"
 	"github.com/go-admin-team/go-admin-core/tools/search"
-	"go-admin/common/global"
 	"gorm.io/gorm"
 )
 

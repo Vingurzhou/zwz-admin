@@ -1,13 +1,13 @@
 package version
 
 import (
-	"go-admin/cmd/migrate/migration/models"
-	common "go-admin/common/models"
+	"github.com/Vingurzhou/zwz-admin/cmd/migrate/migration/models"
+	common "github.com/Vingurzhou/zwz-admin/common/models"
 	"gorm.io/gorm"
 	"runtime"
 	"strconv"
 
-	"go-admin/cmd/migrate/migration"
+	"github.com/Vingurzhou/zwz-admin/cmd/migrate/migration"
 )
 
 func init() {

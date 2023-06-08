@@ -10,8 +10,8 @@ import (
 	"github.com/go-admin-team/go-admin-core/sdk/pkg/response"
 	"gorm.io/gorm"
 
-	"go-admin/common/dto"
-	"go-admin/common/models"
+	"github.com/Vingurzhou/zwz-admin/common/dto"
+	"github.com/Vingurzhou/zwz-admin/common/models"
 )
 
 // IndexAction 通用查询动作

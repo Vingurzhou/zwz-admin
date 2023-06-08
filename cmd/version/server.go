@@ -2,8 +2,8 @@ package version
 
 import (
 	"fmt"
+	"github.com/Vingurzhou/zwz-admin/common/global"
 	"github.com/spf13/cobra"
-	"go-admin/common/global"
 )
 
 var (

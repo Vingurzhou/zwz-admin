@@ -1,13 +1,13 @@
 package router
 
 import (
+	"github.com/Vingurzhou/zwz-admin/app/jobs/apis"
+	models2 "github.com/Vingurzhou/zwz-admin/app/jobs/models"
+	dto2 "github.com/Vingurzhou/zwz-admin/app/jobs/service/dto"
+	"github.com/Vingurzhou/zwz-admin/common/actions"
+	"github.com/Vingurzhou/zwz-admin/common/middleware"
 	"github.com/gin-gonic/gin"
 	jwt "github.com/go-admin-team/go-admin-core/sdk/pkg/jwtauth"
-	"go-admin/app/jobs/apis"
-	models2 "go-admin/app/jobs/models"
-	dto2 "go-admin/app/jobs/service/dto"
-	"go-admin/common/actions"
-	"go-admin/common/middleware"
 )
 
 func init() {

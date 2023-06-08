@@ -8,10 +8,10 @@ import (
 	"github.com/go-admin-team/go-admin-core/sdk/service"
 	"gorm.io/gorm"
 
-	"go-admin/app/admin/models"
-	"go-admin/app/admin/service/dto"
-	"go-admin/common/actions"
-	cDto "go-admin/common/dto"
+	"github.com/Vingurzhou/zwz-admin/app/admin/models"
+	"github.com/Vingurzhou/zwz-admin/app/admin/service/dto"
+	"github.com/Vingurzhou/zwz-admin/common/actions"
+	cDto "github.com/Vingurzhou/zwz-admin/common/dto"
 )
 
 type SysApi struct {

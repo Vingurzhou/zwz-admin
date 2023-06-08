@@ -1,4 +1,4 @@
-module go-admin
+module github.com/Vingurzhou/zwz-admin
 
 go 1.18
 

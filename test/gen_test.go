@@ -1,7 +1,7 @@
 package test
 
 import (
-	//"go-admin/models/tools"
+	//"github.com/Vingurzhou/zwz-admin/models/tools"
 	//"os"
 	"testing"
 	//"text/template"

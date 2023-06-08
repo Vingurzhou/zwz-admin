@@ -6,10 +6,10 @@ import (
     "github.com/go-admin-team/go-admin-core/sdk/service"
 	"gorm.io/gorm"
 
-	"go-admin/app/{{.PackageName}}/models"
-	"go-admin/app/{{.PackageName}}/service/dto"
-	"go-admin/common/actions"
-	cDto "go-admin/common/dto"
+	"github.com/Vingurzhou/zwz-admin/app/{{.PackageName}}/models"
+	"github.com/Vingurzhou/zwz-admin/app/{{.PackageName}}/service/dto"
+	"github.com/Vingurzhou/zwz-admin/common/actions"
+	cDto "github.com/Vingurzhou/zwz-admin/common/dto"
 )
 
 type {{.ClassName}} struct {

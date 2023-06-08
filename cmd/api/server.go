@@ -18,15 +18,15 @@ import (
 	"github.com/go-admin-team/go-admin-core/sdk/runtime"
 	"github.com/spf13/cobra"
 
-	"go-admin/app/admin/models"
-	"go-admin/app/admin/router"
-	"go-admin/app/jobs"
-	"go-admin/common/database"
-	"go-admin/common/global"
-	common "go-admin/common/middleware"
-	"go-admin/common/middleware/handler"
-	"go-admin/common/storage"
-	ext "go-admin/config"
+	"github.com/Vingurzhou/zwz-admin/app/admin/models"
+	"github.com/Vingurzhou/zwz-admin/app/admin/router"
+	"github.com/Vingurzhou/zwz-admin/app/jobs"
+	"github.com/Vingurzhou/zwz-admin/common/database"
+	"github.com/Vingurzhou/zwz-admin/common/global"
+	common "github.com/Vingurzhou/zwz-admin/common/middleware"
+	"github.com/Vingurzhou/zwz-admin/common/middleware/handler"
+	"github.com/Vingurzhou/zwz-admin/common/storage"
+	ext "github.com/Vingurzhou/zwz-admin/config"
 )
 
 var (

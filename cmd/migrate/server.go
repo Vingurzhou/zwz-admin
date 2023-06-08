@@ -12,12 +12,12 @@ import (
 	"github.com/go-admin-team/go-admin-core/config/source/file"
 	"github.com/spf13/cobra"
 
+	"github.com/Vingurzhou/zwz-admin/cmd/migrate/migration"
+	_ "github.com/Vingurzhou/zwz-admin/cmd/migrate/migration/version"
+	_ "github.com/Vingurzhou/zwz-admin/cmd/migrate/migration/version-local"
+	"github.com/Vingurzhou/zwz-admin/common/database"
+	"github.com/Vingurzhou/zwz-admin/common/models"
 	"github.com/go-admin-team/go-admin-core/sdk/config"
-	"go-admin/cmd/migrate/migration"
-	_ "go-admin/cmd/migrate/migration/version"
-	_ "go-admin/cmd/migrate/migration/version-local"
-	"go-admin/common/database"
-	"go-admin/common/models"
 )
 
 var (

@@ -2,18 +2,17 @@ package service
 
 import (
 	"errors"
+	"github.com/casbin/casbin/v2"
 
 	"github.com/go-admin-team/go-admin-core/sdk/config"
 	"gorm.io/gorm/clause"
 
-	"github.com/casbin/casbin/v2"
-
 	"github.com/go-admin-team/go-admin-core/sdk/service"
 	"gorm.io/gorm"
 
-	"go-admin/app/admin/models"
-	"go-admin/app/admin/service/dto"
-	cDto "go-admin/common/dto"
+	"github.com/Vingurzhou/zwz-admin/app/admin/models"
+	"github.com/Vingurzhou/zwz-admin/app/admin/service/dto"
+	cDto "github.com/Vingurzhou/zwz-admin/common/dto"
 )
 
 type SysRole struct {

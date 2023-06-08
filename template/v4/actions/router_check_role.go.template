@@ -4,10 +4,10 @@ import (
     "github.com/gin-gonic/gin"
     jwt "github.com/go-admin-team/go-admin-core/sdk/pkg/jwtauth"
 
-    "go-admin/app/{{.PackageName}}/models"
-    "go-admin/app/{{.PackageName}}/service/dto"
-    "go-admin/common/actions"
-    "go-admin/common/middleware"
+    "github.com/Vingurzhou/zwz-admin/app/{{.PackageName}}/models"
+    "github.com/Vingurzhou/zwz-admin/app/{{.PackageName}}/service/dto"
+    "github.com/Vingurzhou/zwz-admin/common/actions"
+    "github.com/Vingurzhou/zwz-admin/common/middleware"
 )
 
 func init()  {

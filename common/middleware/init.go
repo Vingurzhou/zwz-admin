@@ -1,10 +1,10 @@
 package middleware
 
 import (
+	"github.com/Vingurzhou/zwz-admin/common/actions"
 	"github.com/gin-gonic/gin"
 	"github.com/go-admin-team/go-admin-core/sdk"
 	jwt "github.com/go-admin-team/go-admin-core/sdk/pkg/jwtauth"
-	"go-admin/common/actions"
 )
 
 const (

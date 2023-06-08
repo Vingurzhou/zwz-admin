@@ -1,8 +1,8 @@
 package dto
 
 import (
-	"go-admin/app/admin/models"
-	common "go-admin/common/models"
+	"github.com/Vingurzhou/zwz-admin/app/admin/models"
+	common "github.com/Vingurzhou/zwz-admin/common/models"
 )
 
 // SysDeptGetPageReq 列表或者搜索使用结构体

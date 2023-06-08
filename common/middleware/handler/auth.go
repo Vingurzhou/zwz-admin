@@ -1,10 +1,11 @@
 package handler
 
 import (
-	"go-admin/app/admin/models"
-	"go-admin/common"
+	"github.com/Vingurzhou/zwz-admin/app/admin/models"
+	"github.com/Vingurzhou/zwz-admin/common"
 	"net/http"
 
+	"github.com/Vingurzhou/zwz-admin/common/global"
 	"github.com/gin-gonic/gin"
 	"github.com/go-admin-team/go-admin-core/sdk"
 	"github.com/go-admin-team/go-admin-core/sdk/api"
@@ -15,7 +16,6 @@ import (
 	"github.com/go-admin-team/go-admin-core/sdk/pkg/jwtauth/user"
 	"github.com/go-admin-team/go-admin-core/sdk/pkg/response"
 	"github.com/mssola/user_agent"
-	"go-admin/common/global"
 )
 
 func PayloadFunc(data interface{}) jwt.MapClaims {

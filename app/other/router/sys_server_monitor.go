@@ -1,10 +1,10 @@
 package router
 
 import (
+	"github.com/Vingurzhou/zwz-admin/app/other/apis"
+	"github.com/Vingurzhou/zwz-admin/common/middleware"
 	"github.com/gin-gonic/gin"
 	jwt "github.com/go-admin-team/go-admin-core/sdk/pkg/jwtauth"
-	"go-admin/app/other/apis"
-	"go-admin/common/middleware"
 )
 
 func init() {

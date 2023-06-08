@@ -4,8 +4,8 @@ import (
 	"gorm.io/gorm"
 	"runtime"
 
-	"go-admin/cmd/migrate/migration"
-	common "go-admin/common/models"
+	"github.com/Vingurzhou/zwz-admin/cmd/migrate/migration"
+	common "github.com/Vingurzhou/zwz-admin/common/models"
 )
 
 func init() {

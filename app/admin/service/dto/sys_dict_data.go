@@ -1,9 +1,9 @@
 package dto
 
 import (
-	"go-admin/app/admin/models"
-	"go-admin/common/dto"
-	common "go-admin/common/models"
+	"github.com/Vingurzhou/zwz-admin/app/admin/models"
+	"github.com/Vingurzhou/zwz-admin/common/dto"
+	common "github.com/Vingurzhou/zwz-admin/common/models"
 )
 
 type SysDictDataGetPageReq struct {

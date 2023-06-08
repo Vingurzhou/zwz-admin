@@ -1,7 +1,7 @@
 package main
 
 import (
-	"go-admin/cmd"
+	"github.com/Vingurzhou/zwz-admin/cmd"
 )
 
 //go:generate swag init --parseDependency --parseDepth=6

@@ -3,17 +3,17 @@ package cmd
 import (
 	"errors"
 	"fmt"
+	"github.com/Vingurzhou/zwz-admin/cmd/app"
+	"github.com/Vingurzhou/zwz-admin/common/global"
 	"github.com/go-admin-team/go-admin-core/sdk/pkg"
-	"go-admin/cmd/app"
-	"go-admin/common/global"
 	"os"
 
 	"github.com/spf13/cobra"
 
-	"go-admin/cmd/api"
-	"go-admin/cmd/config"
-	"go-admin/cmd/migrate"
-	"go-admin/cmd/version"
+	"github.com/Vingurzhou/zwz-admin/cmd/api"
+	"github.com/Vingurzhou/zwz-admin/cmd/config"
+	"github.com/Vingurzhou/zwz-admin/cmd/migrate"
+	"github.com/Vingurzhou/zwz-admin/cmd/version"
 )
 
 var rootCmd = &cobra.Command{

@@ -1,10 +1,10 @@
 package dto
 
 import (
-	"go-admin/app/admin/models"
-	common "go-admin/common/models"
+	"github.com/Vingurzhou/zwz-admin/app/admin/models"
+	common "github.com/Vingurzhou/zwz-admin/common/models"
 
-	"go-admin/common/dto"
+	"github.com/Vingurzhou/zwz-admin/common/dto"
 )
 
 type SysRoleGetPageReq struct {

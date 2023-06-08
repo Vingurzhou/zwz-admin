@@ -3,9 +3,9 @@ package apis
 import (
 "github.com/gin-gonic/gin"
 "github.com/gin-gonic/gin/binding"
-"go-admin/models"
+"github.com/Vingurzhou/zwz-admin/models"
 "github.com/go-admin-team/go-admin-core/sdk/pkg"
-"go-admin/utils"
+"github.com/Vingurzhou/zwz-admin/utils"
 "net/http"
 )
 

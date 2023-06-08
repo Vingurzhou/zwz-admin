@@ -1,6 +1,6 @@
 package models
 
-import "go-admin/common/models"
+import "github.com/Vingurzhou/zwz-admin/common/models"
 
 type SysDept struct {
 	DeptId   int    `json:"deptId" gorm:"primaryKey;autoIncrement;"` //部门编码

@@ -1,12 +1,12 @@
 package dto
 
 import (
+	"github.com/Vingurzhou/zwz-admin/app/jobs/models"
 	"github.com/gin-gonic/gin"
 	"github.com/go-admin-team/go-admin-core/sdk/api"
-	"go-admin/app/jobs/models"
 
-	"go-admin/common/dto"
-	common "go-admin/common/models"
+	"github.com/Vingurzhou/zwz-admin/common/dto"
+	common "github.com/Vingurzhou/zwz-admin/common/models"
 )
 
 type SysJobSearch struct {
