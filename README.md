@@ -27,7 +27,8 @@ go run main.go server -c=config/settings.dev.yml
 ### 安装
 
 ```shell
-npm install
+npm install --force
+
 ```
 
 ### 启动

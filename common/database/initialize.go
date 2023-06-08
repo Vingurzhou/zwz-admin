@@ -1,6 +1,7 @@
 package database
 
 import (
+	"github.com/Vingurzhou/zwz-admin/common/global"
 	log "github.com/go-admin-team/go-admin-core/logger"
 	"github.com/go-admin-team/go-admin-core/sdk"
 	toolsConfig "github.com/go-admin-team/go-admin-core/sdk/config"
@@ -9,8 +10,6 @@ import (
 	toolsDB "github.com/go-admin-team/go-admin-core/tools/database"
 	"gorm.io/gorm"
 	"gorm.io/gorm/schema"
-
-	"github.com/Vingurzhou/zwz-admin/common/global"
 )
 
 // Setup 配置数据库
@@ -38,7 +37,7 @@ func setupSimpleDatabase(host string, c *toolsConfig.Database) {
 		NamingStrategy: schema.NamingStrategy{
 			SingularTable: true,
 		},
-		//Logger: New(
+		//Logger: logger.New(log2.New(os.Stdout, "\r\n", log2.LstdFlags),
 		//	logger.Config{
 		//		SlowThreshold: time.Second,
 		//		Colorful:      true,
