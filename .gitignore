@@ -4,8 +4,8 @@
 static/uploadfile
 main.exe
 *.exe
-go-admin
-go-admin.exe
+zwz-admin
+zwz-admin.exe
 temp/
 !temp
 vendor
