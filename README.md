@@ -12,13 +12,16 @@ go run main.go server -c=config/settings.dev.yml
 
 ```shell
 #npm install --force
-cd zwz-admin-ui
-npm run dev
+cd zwz-admin-ui;npm run dev
 ```
 
-##  测试环境
+## 测试环境
+
 ```shell
 make build-linux
 make deploy
+docker-compose pull
 docker-compose -f docker-compose.yml up -d
 ```
+
+ps：配置nginx解决跨域问题

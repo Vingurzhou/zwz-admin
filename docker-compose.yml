@@ -25,7 +25,16 @@ services:
 networks:
   backend:
     driver: bridge
-
+#
+#  docker pull vingurzhou/zwz-admin:latest
+#  docker pull vingurzhou/zwz-admin-ui:latest
+#
+#  docker stop zwz-admin-api
+#  docker rm zwz-admin-api
+#
+#  docker  stop zwz-admin-ui
+#  docker rm zwz-admin-ui
+#
 #  docker run -d \
 #  --name zwz-admin-api \
 #  --privileged \

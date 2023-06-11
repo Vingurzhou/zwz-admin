@@ -5,8 +5,7 @@ build-linux:
 	CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -ldflags="-w -s" -a -installsuffix "" -o zwz-admin .
 
 build-front:
-	cd zwz-admin-ui
-	npm run build:prod
+	cd zwz-admin-ui ; npm run build:prod
 
 deploy:
 	@docker build --no-cache -t zwz-admin:latest --platform linux/amd64  .
